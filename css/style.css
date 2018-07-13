@@ -1,0 +1,544 @@
+/* start main rulez */
+
+body{
+  height: 2000px;
+}
+
+.container{
+  width:1170px;
+  margin: auto;
+}
+
+/* end main rulez */
+
+
+/* start header */
+.header .slider {
+  background-image: url('../images/mortal.jpg');
+  height: 560px;
+  background-size: cover;
+}
+
+.header .slider .intro {
+  margin: 0;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.header .slider .intro h1{
+  color: #FFF;
+  width: 500px;
+  border-top: 3px solid #FFF;
+  border-bottom: 3px solid #FFF;
+  font-size: 35px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.header .slider .intro button{
+  background: none;
+  color: #FFF;
+  font-size: 30px;
+  padding: 10px 40px;
+  margin-top: 30px;
+  border: 2px solid #FFF;
+  text-transform: capitalize;
+}
+.header .navbar{
+  background-color: #252F31;
+  color:#FFF;
+  overflow: hidden;
+}
+.header .navbar h2{
+  float: left;
+  text-transform: uppercase;
+}
+.header .navbar h2 span{
+  color:#268A42;
+}
+.header .navbar ul{
+  list-style:none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+  font-weight: bold;
+}
+
+.header .navbar ul a{
+  text-decoration: none;
+  color: #FFF;
+}
+.header .navbar ul li{
+  float: left;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.header .navbar ul .activ,
+.header .navbar ul li:hover{
+  color: #268A42;
+}
+
+/* end header */
+
+
+/* start features */
+
+.features{
+  overflow: hidden;
+  padding: 30px; 0 30px;
+}
+
+.features .feat{
+  float: left;
+  width: 31%;
+  margin-right: 20px;
+}
+
+.features .feat h3{
+  text-transform: uppercase;
+  color: #8D9192;
+}
+
+.features .feat p{
+  color: #d2cccc;
+  text-align: justify;
+
+}
+/* end features */
+
+
+/* start about me */
+
+.about-me{
+  background-color: #F2F2F2;
+  overflow: hidden;
+}
+
+.about-me .image{
+  width: 40%;
+  float: left;
+}
+
+.about-me .image img{
+  width: 100%;
+}
+
+.about-me .info{
+  width: 50%;
+  float: left;
+  margin-left: 75px;
+}
+
+
+.about-me .info h3{
+  color: #636E70;
+  text-transform: uppercase;
+}
+
+.about-me .info p{
+  color: #BCBCBC;
+  text-align: justify;
+  text-transform: capitalize;
+}
+.about-me .info .hobbies{
+  overflow: hidden;
+  margin: 50px 0 0 0;
+}
+
+.about-me .info .hobbies > div{
+  width: 50%;
+  float: left;
+  min-height: 120px;
+  overflow: hidden;
+
+}
+
+
+
+.about-me .info .hobbies > div i{
+  float: left;
+  width: 18%;
+  margin: 10px 0 0 0;
+  color: #32D07C;
+}
+
+.about-me .info .hobbies > div h4{
+  float: left;
+  width: 70%;
+  text-transform: uppercase;
+}
+/* end about me */
+
+
+
+/* start my skils */
+
+.my-skils{
+  padding: 30px 0 30px;
+  overflow: hidden;
+}
+
+.my-skils .skils,
+.my-skils .progress{
+  float: left;
+  width: 45%;
+}
+
+.my-skils .skils{
+  margin-right: 60px;
+}
+
+.my-skils .skils h3{
+  text-transform: uppercase;
+  color: #545E5F;
+}
+
+.my-skils .skils p{
+  color: #B5B5B5;
+  text-transform: capitalize;
+  line-height: 2;
+}
+
+.my-skils .skils button{
+  background: none;
+  border: 1px solid #2DCC70;
+  color: #2DCC70;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  outline: none;
+}
+.my-skils .progress {
+
+}
+
+.my-skils .progress h4{
+  text-transform: uppercase;
+  color: #636B6D;
+}
+
+.my-skils .progress .photoshop .width,
+.my-skils .progress .illustrator .width,
+.my-skils .progress .html-css .width,
+.my-skils .progress .php-mysql .width{
+  width: 500px;
+  height: 20px;
+  background: #F2F2F2;
+  position: relative;
+}
+
+.my-skils .progress .photoshop .width span,
+.my-skils .progress .illustrator .width span,
+.my-skils .progress .html-css .width span,
+.my-skils .progress .php-mysql .width span{
+  background: #2DCC70;
+  position: absolute;
+  color: #FFF;
+  text-align: right;
+  height: 100%;
+}
+
+.my-skils .progress .photoshop .width span,
+.my-skils .progress .html-css .width span{
+  width: 90%;
+
+}
+
+.my-skils .progress .illustrator .width span{
+  width: 80%;
+}
+
+.my-skils .progress .php-mysql .width span{
+   width: 70%;
+}
+/* end my skils */
+
+
+
+/* start resume */
+.resume{
+  background-color: #F2F2F2;
+  padding:30px 0 30px;
+  text-align: center;
+}
+
+
+.resume h3{
+  text-transform: uppercase;
+  color: #636B6D;
+}
+
+.resume p{
+  color: #B5B5B5;
+  text-transform: capitalize;
+}
+
+
+.resume button{
+  background: none;
+  border: 1px solid #2DCC70;
+  color: #2DCC70;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  outline: none;
+}
+
+
+/* end resume */
+
+
+
+/* start my education */
+
+.my-education{
+  padding: 30px 0 30px;
+}
+
+.my-education .education{
+  overflow: hidden;
+}
+
+.my-education .education .info-education{
+  float: left;
+  width: 45%;
+  margin-right: 40px;
+}
+
+.my-education .education .info-education h3,
+.my-education .education .cert-education h3{
+  text-transform: uppercase;
+  color: #636B6D;
+}
+
+.my-education .education .info-education p,
+.my-education .education .cert-education p{
+  color: #B5B5B5;
+  text-transform: capitalize;
+}
+
+.my-education .education .cert-education{
+  float: right;
+  width: 45%
+}
+
+
+.my-education .education .cert-education button{
+  border:none;
+  background: #2DCC70;
+  color: #FFF;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 7px 0 16px 0px;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+.my-education .work-exp{
+  overflow: hidden;
+  padding: 30px 0 30px;
+}
+
+.my-education .work-exp .info-work{
+  float: left;
+  width: 45%;
+}
+
+.my-education .work-exp .info-work h3,
+.my-education .work-exp .cert-work h3{
+  text-transform: uppercase;
+  color: #636B6D;
+}
+
+.my-education .work-exp .info-work p,
+.my-education .work-exp .cert-work p{
+  color: #B5B5B5;
+  text-transform: capitalize;
+}
+
+
+
+
+.my-education .work-exp .cert-work button{
+  border:none;
+  background: #2DCC70;
+  color: #FFF;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 7px 0 16px 0px;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+.my-education .work-exp .cert-work{
+  float: right;
+  width: 45%;
+}
+
+.my-education .work-exp .cert-work .cit,
+.my-education .education .cert-education .cit{
+  padding: 0 0 25px 0;
+}
+/* end my education */
+
+
+
+/* start testimonials */
+
+.testimonials{
+  text-align: center;
+  padding: 60px 0;
+  background: #F2F2F2;
+}
+
+.testimonials p{
+  color: #B5B5B5;
+  text-transform: capitalize;
+}
+
+.testimonials h3{
+  text-transform: uppercase;
+  color: #636B6D;
+}
+/* end testimonials */
+
+
+/* start portfolio */
+
+.portfolio{
+  text-align: center;
+  padding: 30px 0 30px;
+}
+
+.portfolio p{
+  color: #B5B5B5;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+
+.portfolio h3{
+  text-transform: uppercase;
+  color: #636B6D;
+  margin: 40px 0;
+}
+
+.portfolio .photo{
+  overflow: hidden;
+}
+
+.portfolio .photo .img{
+  width: 33.3333333%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.portfolio .photo .img img{
+  width: 95%;
+}
+
+/* end portfolio */
+
+
+
+/* start contact me  */
+
+.contact-me{
+  padding:50px 0 50px;
+  overflow: hidden;
+  background-color: #252F31;
+  color: #FFF;
+}
+
+
+.contact-me .info {
+  margin-right: 30px;
+}
+.contact-me .info h3{
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.contact-me .info p{
+  text-transform: capitalize;
+}
+.contact-me .info p,
+.contact-me .info h4{
+  color:#777C80;
+}
+.contact-me .info,
+.contact-me .form{
+  width: 45%;
+  float: left;
+}
+
+.contact-me .form label{
+  text-transform: capitalize;
+  margin: 20px 0 -15px 0;
+  display: block;
+  color:#777C80;
+}
+
+.contact-me .form input{
+  background: #4B5557;
+  outline: none;
+  line-height: 2;
+  border: none;
+  text-indent: 10px;
+  color: #FFF;
+  width: 65%;
+}
+
+.contact-me .form textarea{
+  background: #4B5557;
+  outline: none;
+  border: none;
+  text-indent: 10px;
+  color: #FFF;
+  width: 65%;
+}
+
+.contact-me .form button{
+  background: #191E22;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #FFF;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* end contact me  */
+
+/* start footer */
+
+.footer{
+  padding: 8px 0;
+  background: #191E22;
+  text-align: center;
+  color: #FFF;
+}
+
+.footer p{
+  text-transform: capitalize;
+  color:#777C80;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li{
+  display: inline-block;
+  margin: 0 8px 0 0;
+  color: #40484B;
+  cursor: pointer;
+}
+
+/* end footer */
